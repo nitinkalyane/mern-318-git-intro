@@ -1,0 +1,104 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.card-title{
+    font-size: 24px;
+}
+
+.card-btn{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 16px;
+}
+
+@media(min-width:586px){
+    .card{
+        border: 1px solid lightgray;
+        width: 670px;
+        border-radius: 16px;
+        padding: 10px;
+        margin: 50px 10px; 
+    }
+    .card-img{
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 16px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        
+        }
+        .food-card{
+            width: 340px;
+            margin: 10px;
+            border-radius: 16px;
+            padding: 10px;
+            border: 1px solid lightgray;
+        }
+        
+        .food-img{
+         width: 100%;
+         border-radius: 16px;
+        
+        }
+        
+}
+
+@media(max-width:586px){
+    .card{
+        margin: 50px 10px; 
+    }
+    .card-img{
+        width: 100%;
+        border-radius: 16px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .food-card{
+        width: 340px;
+        margin: 10px;
+        border-radius: 16px;
+        padding: 10px;
+       background-color: #eee;
+    }
+    
+    .food-img{
+     width: 100%;
+     border-radius: 16px;
+    
+    }
+
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+
+}
+.food-card{
+    width: 340px;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.food-img{
+ width: 100%;
+ border-radius: 16px;
+
+} */
