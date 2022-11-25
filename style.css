@@ -1,0 +1,73 @@
+/* body{
+background: hsla(33, 100%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+
+}
+
+.container{
+    background-color: white;
+    color: #e9c46a;
+    font-size: 4px;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+.title{
+    background: #4C38CF;
+    background: linear-gradient(to right, #4C38CF 0%, #CF0C20 97%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 86px;
+
+} */
+
+.card{
+    /* width: 410px; */
+    border: 1px solid #eee;
+    border-radius: 26px;
+    display: block;
+}
+.card-body{
+    padding:26px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius:0 0 26px 26px;
+    display: block;
+}
+
+
+@media(min-width:586px){
+    .grid-container{
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        grid-template-columns: auto auto auto auto;
+        height: 100vh;
+    }
+    
+}
+
+@media(max-width:586px){
+    .grid-container{
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        gap: 20px;
+        align-content: center;
+        height: 100vh;
+    }
+     
+}
